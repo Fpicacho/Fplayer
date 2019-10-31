@@ -7,13 +7,22 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="https://cdn.bootcss.com/font-awesome/5.10.2/css/all.css" rel="stylesheet">
         <title>FplayerDEMO</title>
+        <style>
+            body{
+                background-image: url(../img/bgc.png);
+            }
+            #fplayer{
+                margin-top: 165px;
+                margin-left: 250px;
+            }
+        </style>
     </head>
     <body>
-        <div id="fplayer" style="width: 1080px;height: 700px">
-            <video id="video">
-                <source src="video/video.mp4" />
-            </video>
-        </div>
+            <div id="fplayer" style="width: 1260px;height: 820px" class="fplayer">
+                <video id="video">
+                    <source src="video/video.mp4" />
+                </video>
+            </div>
         <script src="./js/Fplayer.js"></script>
     </body>
 </html>
